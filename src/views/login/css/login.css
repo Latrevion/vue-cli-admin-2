@@ -1,0 +1,193 @@
+/*清除浮动代码*/
+.clearfloat{zoom:1}
+.clearfloat:after{display: block;clear:both;content:"";visibility: hidden;height:0}
+.login-min-body{
+    width: 100%;
+    height:100%;
+    background:url("../img/login-bg.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.head-title{
+  width: 25vw;
+  height: 19vh;
+  background: url("../img/logo.png") no-repeat center center;
+  position: absolute;
+  top: 6vh;
+  left: 3vw;
+
+}
+.head-title img{
+    width: 66px;
+    height: 66px;
+    display: block;
+    float: left;
+    border-radius:50%;
+    margin-left: 30px;
+}
+.login-box{
+    width: 841px;
+    height: 487px;
+    line-height: 20px;
+    border-radius: 10px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 14px;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 2px 0px 20px 0px rgba(0, 0, 0, 0.4);
+    font-family: Roboto;
+    position: absolute;
+    top:45%;left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+}
+.login-icon{
+    width: 351px;
+    height: 285px;
+    margin: 0 30px!important;
+    background: url("../img/login-icon.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.register .login-right{
+    width: calc(100% - 450px);
+    margin:0 30px;
+}
+.login-right{
+    width: calc(100% - 550px);
+    margin-left: 30px;
+    margin-top: 55px;
+}
+.login-title{
+    width: 329px;
+    height: 63px;
+    color: rgba(40, 52, 67, 100);
+    font-size: 36px;
+    text-align: left;
+    white-space: nowrap;
+    font-family: SourceHanSansSC-regular;
+}
+.login-main{
+    width: 100%;
+}
+.login-user{
+
+  height: 50px;
+  display: flex;
+  background: #fff;
+  border-radius: 4px;
+    font-size: 14px;
+
+}
+.login-user .el-input__inner{
+  height: 50px;
+}
+.login-password{
+  height: 50px;
+  display: flex;
+  background: #fff;
+  border-radius: 4px;
+    margin:10px auto 0 auto;
+}
+.login-user i,.login-password i{
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color:#c7c7c7;
+  font-size: 20px;
+}
+.login-user input,.login-password input{
+    width: calc(100% - 40px);
+    height: 40px;
+    line-height: 40;
+    text-indent: 20px;
+    color:#ffffff;
+    font-size: 14px;
+    background: transparent;
+}
+.login-user input::-webkit-input-placeholder,
+.login-password input::-webkit-input-placeholder{
+    color:#fff;
+
+}
+.login-button{
+    width: 45%;
+    height: 49px;
+    line-height: 49px;
+    border-radius: 30px;
+    background-color: rgba(0, 137, 255, 100);
+    color: rgba(238, 238, 238, 100);
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.login-button:hover{
+    background-color: rgba(0, 137, 255, .75);
+    border:none;
+    color:#fff;
+}
+.login-button:nth-of-type(2){
+    background: none;
+    border:1px solid rgba(0, 137, 255, 100);
+    color:#000000;
+}
+.login-button:nth-of-type(2):hover{
+    background-color: rgba(0, 137, 255, .75);
+    border:1px solid rgba(0, 137, 255, 100);
+    color:#fff;
+}
+.login-text{
+  color: #ffffff;
+  font-size: 2.4vw;
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-family: "Adobe 黑体 Std R";
+  text-align: center;
+}
+.login-text li{
+  margin-bottom: 7vh;
+  font-size: 3vw;
+    list-style: none;
+}
+.login-btn-box{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 13px;
+
+}
+.login-input{
+    height: 50px;
+    display: flex;
+    background: #fff;
+    border-radius: 4px;
+    margin:10px auto 0 auto;
+    border-bottom:1px solid #C7C7C9
+}
+.login-input i{
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color:#6CA5FD;
+    font-size: 20px;
+}
+.login-input input{
+    padding: 0;
+    height: 50px;
+    line-height: 50;
+    text-indent: 10px;
+    color:#000000;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+}
+
+
+
+
