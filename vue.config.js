@@ -1,4 +1,7 @@
 module.exports = {
+    //eslint disable
+    lintOnSave: false,
+
   // 设置全局样式调用
   css: {
       loaderOptions: {
