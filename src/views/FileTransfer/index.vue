@@ -1,7 +1,5 @@
 <template>
-    <div>
-        文件页面
-    </div>
+ <div class="min-body">文件</div>
 </template>
 
 <script>
